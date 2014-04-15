@@ -1,0 +1,7 @@
+{
+    "title": "TinyMCE config",
+    "version": "1.00",
+    "name": "TinyMceConfig",
+    "description": "additional styles to the tinyMCE",
+    "author": "ImpressPages"
+}
