@@ -1,8 +1,8 @@
 
-var originalConfigFunction = ipTinyMceConfig;
+var tinymceConfigOriginalConfigFunction = ipTinyMceConfig;
 
 var ipTinyMceConfig = function () {
-    var originalConfig = originalConfigFunction();
+    var originalConfig = tinymceConfigOriginalConfigFunction();
     originalConfig.style_formats = [
         {title: 'Main', items: [
             {title: 'Subheading', inline: 'span', classes: 'mainSubheading'}
